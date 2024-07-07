@@ -1,0 +1,25 @@
+{
+  "name": "dialog_typing",
+  "version": "1.3.3",
+  "description": "description",
+  "main": "dialog.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diter89/Creater56.git"
+  },
+  "keywords": [
+    "dialog"
+  ],
+  "author": "unknows",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diter89/Creater56/issues"
+  },
+  "homepage": "https://github.com/diter89/Creater56#readme",
+  "dependencies": {
+    "baso_kontol_real": "^1.1.4"
+  }
+}

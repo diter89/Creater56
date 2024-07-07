@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dialog Box</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <h1>Dialog Box Example</h1>
+    <button id="openDialog">Open Dialog</button>
+    <div id="dialog" style="display: none;">
+        <p>This is a dialog box!</p>
+        <button id="closeDialog">Close</button>
+    </div>
+    <script>
+        document.getElementById('openDialog').addEventListener('click', function() {
+            document.getElementById('dialog').style.display = 'block';
+        });
+
+        document.getElementById('closeDialog').addEventListener('click', function() {
+            document.getElementById('dialog').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
